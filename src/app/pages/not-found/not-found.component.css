@@ -1,0 +1,11 @@
+body{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+body > h1{
+    cursor: default;
+    font-size: 3.5rem;
+    color:rgb(128, 128, 128);
+}

@@ -1,0 +1,47 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign_container{
+    height: 100%;
+    min-height: 43.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+.sign_container > .sign_box{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    margin-bottom: 4%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
+}
+
+.sign_container > .sign_box > .title{
+    margin-top: 10%;
+    cursor: default;
+}
+
+.sign_container > .sign_box > .input > .username,
+.sign_container > .sign_box > .input > .password{
+    margin-top: 20%;
+}
+
+.sign_container > .sign_box > .input > .username > p, 
+.sign_container > .sign_box > .input > .password > p{
+    margin-bottom: 1%;
+    cursor: default;
+}
+
+
+.sign_container > .sign_box > .buttons{
+    margin-top: 10%;
+    margin-bottom:10%;
+}
